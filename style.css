@@ -1,0 +1,120 @@
+*{
+   margin: 0;
+   padding: 0;
+
+
+}
+body{
+background: url('login.jpg')
+
+
+}
+h1{
+
+text-align: center;
+margin: 75px auto;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(255, 255, 255);
+
+
+}
+h2{
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+span{
+    margin-right: 60px;
+    padding-bottom: 1px;
+    display: block;
+    font-family: sans-serif;
+    
+}
+
+
+
+section{
+    width: 400px;
+    height: 320px;
+line-height: 25px;
+margin: 50px auto;
+display: block;
+text-align: center;
+background-color: transparent;
+color: rgb(248, 248, 248);
+opacity: 80%;
+border: 20px solid rgba(0, 0, 0, 0.2);
+border-radius: 20px;
+box-shadow: black;
+
+}
+
+
+button{
+
+padding: 5px 60px;
+border-radius: 10px;
+border: 10px;
+font-size: larger;
+
+}
+button{
+margin-right: 15px;
+margin-bottom: 10px;
+border: 2px solid black;
+cursor: pointer;
+
+}
+input[type='email']{
+   margin-bottom: 10px;
+   border:400px;
+   background-color: transparent;
+   box-shadow: black;
+   border-width: 100px;
+   padding-left: 10px;
+   opacity: 90%;
+   border-radius: 30px;
+   border:2px solid black ;
+   font-size: larger;
+   width: 200px;
+   height: 40px;
+   
+   
+
+}
+
+input[type='password']{
+   margin-bottom: 10px;
+   border:400px;
+   border-width: 50px;
+   padding-left: 10px;
+   opacity: 90%;
+   border-radius: 30px;
+   background-color: transparent;
+   border: 2px solid black;
+   font-size: larger;
+   width: 200px;
+   height: 40px;
+
+}
+a{
+color: aliceblue;
+
+}
+button:hover{
+   background-color: transparent;
+   border: 2px solid black;
+   margin-right: 15px;
+   margin-bottom: 10px;
+}
+footer{
+ text-align: center;
+ color: aliceblue;
+
+
+}
+
