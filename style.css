@@ -40,8 +40,8 @@ span{
 section{
     width: 400px;
     height: 320px;
-line-height: 25px;
-margin: 50px auto;
+line-height: 20px;
+margin: 40px auto;
 display: block;
 text-align: center;
 background-color: transparent;
@@ -70,7 +70,7 @@ cursor: pointer;
 
 }
 input[type='email']{
-   margin-bottom: 10px;
+   margin-bottom: 0px;
    border:400px;
    background-color: transparent;
    box-shadow: black;
@@ -82,6 +82,7 @@ input[type='email']{
    font-size: larger;
    width: 200px;
    height: 40px;
+   
    
    
 
@@ -117,4 +118,33 @@ footer{
 
 
 }
+#email::placeholder {
+  color: aliceblue;
 
+
+}
+#password::placeholder {
+  color: aliceblue;
+
+
+}
+ul{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 120px;
+    text-align: left;
+    margin-bottom: 10px;
+    
+   
+
+
+}
+li{
+margin: 0;
+
+
+}
+i{
+  margin-right: 10px;
+
+}
