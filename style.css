@@ -55,7 +55,7 @@ box-shadow: black;
 
 
 button{
-
+background-color: aliceblue;
 padding: 5px 60px;
 border-radius: 10px;
 border: 10px;
@@ -111,6 +111,7 @@ button:hover{
    border: 2px solid black;
    margin-right: 15px;
    margin-bottom: 10px;
+   transition: 0.5s;
 }
 footer{
  text-align: center;
@@ -146,5 +147,15 @@ margin: 0;
 }
 i{
   margin-right: 10px;
+
+}
+input[type = 'email']:hover{
+ background-color: black;
+ transition: 1s;
+
+}
+input[type = 'password']:hover{
+ background-color: black;
+ transition: 1s;
 
 }
