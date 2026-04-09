@@ -82,6 +82,7 @@ input[type='email']{
    font-size: larger;
    width: 200px;
    height: 40px;
+   color: aliceblue;
    
    
    
@@ -100,6 +101,7 @@ input[type='password']{
    font-size: larger;
    width: 200px;
    height: 40px;
+   color: aliceblue;
 
 }
 a{
@@ -147,6 +149,7 @@ margin: 0;
 }
 i{
   margin-right: 10px;
+  
 
 }
 input[type = 'email']:hover{
